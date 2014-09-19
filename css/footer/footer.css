@@ -1,0 +1,9 @@
+.second-footer {
+  background: #6c6c6c url("../img/foter-bg.png") repeat;
+  overflow: auto;
+  padding: 24px 0; }
+  .second-footer ul {
+    float: right; }
+  .second-footer li {
+    float: left;
+    padding-left: 10px; }
