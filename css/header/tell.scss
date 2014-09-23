@@ -1,0 +1,23 @@
+@import "../mixin";
+.tell-line {
+    background: #464646 url("../img/tell-line-bg.png") repeat;
+    height: 40px;
+
+    p {
+        text-align: right;
+        line-height: 40px;
+    }
+    image {
+        height: 15px;
+    }
+}
+
+.tell-text {
+    color: #fff;
+    font-size: 15px;
+}
+
+.tell-number {
+    color: #f4af00;
+    font-size: 13.17px;
+}

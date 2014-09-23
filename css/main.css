@@ -1,0 +1,256 @@
+@import url(reset.css);
+.tell-line {
+  background: #464646 url("../img/tell-line-bg.png") repeat;
+  height: 40px; }
+  .tell-line p {
+    text-align: right;
+    line-height: 40px; }
+  .tell-line image {
+    height: 15px; }
+
+.tell-text {
+  color: #fff;
+  font-size: 15px; }
+
+.tell-number {
+  color: #f4af00;
+  font-size: 13.17px; }
+
+.logo {
+  padding: 29px 0;
+  float: left;
+  width: 300px; }
+
+.logo-image {
+  position: relative;
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+  height: 72px;
+  width: 72px;
+  float: left;
+  margin-right: 20px; }
+  .logo-image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -40% 0 0 -18%; }
+
+.logo-type {
+  display: inline;
+  font-size: 40px;
+  color: #3d3d3d; }
+  .logo-type span {
+    color: #f4af00; }
+
+.menu-line {
+  height: 130px; }
+
+.menu {
+  list-style: none;
+  float: right;
+  line-height: 50%;
+  padding-top: 47.5px; }
+  .menu li {
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    height: 36px; }
+  .menu a {
+    color: #3d3d3d;
+    display: block;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 2.5; }
+    .menu a:hover {
+      background: #f4af00;
+      color: #ffffff; }
+
+.gallery {
+  background: #d2d2d2; }
+  .gallery img {
+    width: 100%; }
+  .gallery h2 {
+    color: #ffffff;
+    font-size: 140px; }
+  .gallery h3 {
+    color: #494949;
+    font-size: 40px;
+    padding: 0 0 20px 10px; }
+  .gallery p {
+    color: #c5e2ed;
+    font-size: 14px;
+    width: 605px;
+    padding: 0 0 20px 10px; }
+
+.read-more {
+  width: 105px;
+  height: 42px;
+  background: #f4af00;
+  text-align: center;
+  line-height: 42px;
+  margin-top: 20px; }
+  .read-more a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px; }
+
+.content {
+  background: #cecece;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #cecece -1%, #ffffff 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(-1%, #cecece), color-stop(100%, #ffffff));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #cecece -1%, #ffffff 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #cecece -1%, #ffffff 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #cecece -1%, #ffffff 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #cecece -1%, #ffffff 100%);
+  /* W3C */
+  /*clear: both;*/
+  overflow: auto;
+  padding: 75px 0; }
+  .content ul li {
+    width: 360px;
+    float: left;
+    margin-right: 25px; }
+    .content ul li:last-child {
+      margin-right: 0; }
+  .content h2 {
+    color: #494949;
+    font-size: 29px;
+    padding: 10px 0; }
+  .content h3 {
+    color: #7f9db0;
+    font-size: 15px; }
+
+.content-point {
+  width: 75px;
+  height: 75px;
+  background: #5a5a5a;
+  text-align: center;
+  line-height: 75px;
+  color: #ffffff;
+  font-size: 40px;
+  float: left;
+  margin-right: 20px; }
+
+.content-text {
+  color: #4c5c66;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: 20px;
+  clear: both; }
+
+.sidebar {
+  background: #2e3133;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #2e3133 0%, #181b1e 15%, #15181b 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2e3133), color-stop(15%, #181b1e), color-stop(100%, #15181b));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #2e3133 0%, #181b1e 15%, #15181b 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #2e3133 0%, #181b1e 15%, #15181b 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #2e3133 0%, #181b1e 15%, #15181b 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #2e3133 0%, #181b1e 15%, #15181b 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e3133', endColorstr='#15181b',GradientType=0 );
+  /* IE6-9 */
+  padding: 85px 0; }
+  .sidebar .testimonials {
+    width: 362px; }
+    .sidebar .testimonials li {
+      margin-bottom: 35px; }
+    .sidebar .testimonials h3 {
+      color: #c5e2ed;
+      font-size: 30px;
+      margin-bottom: 42px; }
+    .sidebar .testimonials img {
+      float: left; }
+    .sidebar .testimonials .comment {
+      background: #ffffff;
+      border: 1px solid #9f9f9f;
+      text-transform: none;
+      color: #9f9f9f;
+      font-size: 14px;
+      margin-left: 80px;
+      padding: 19px;
+      position: relative; }
+      .sidebar .testimonials .comment::after {
+        content: '';
+        position: absolute;
+        left: -10px;
+        top: 19px;
+        border: 6px solid transparent;
+        border-right-color: #ffffff; }
+    .sidebar .testimonials .contacts {
+      color: #38393a;
+      text-align: right;
+      margin-top: 19px; }
+      .sidebar .testimonials .contacts .user-name {
+        color: #e5a502; }
+      .sidebar .testimonials .contacts .organisation {
+        color: #494949; }
+    .sidebar .testimonials .navigation {
+      margin-top: -74px;
+      position: relative; }
+      .sidebar .testimonials .navigation button {
+        background: #545454;
+        width: 50px;
+        height: 50px;
+        color: #ffffff;
+        font-size: 30px; }
+        .sidebar .testimonials .navigation button:hover {
+          background: #f6ba00; }
+
+.wrapper-footer {
+  background: #6c6c6c url("../img/footer-bg.png") repeat; }
+
+.footer {
+  overflow: auto;
+  padding: 30px 0 14px 0; }
+  .footer #social {
+    float: right;
+    margin-top: -24px; }
+    .footer #social li {
+      background: #1e2328;
+      width: 33px;
+      height: 33px;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      float: left;
+      margin-left: 10px; }
+      .footer #social li:hover {
+        background: #9f9f9f;
+        -webkit-border-radius: 50%;
+        border-radius: 50%; }
+
+.copy-right {
+  color: #ffffff;
+  font-size: 14px; }
+  .copy-right span {
+    color: #adadad;
+    font-size: 16px; }
+
+body {
+  background: #fff url("../img/bg.png") repeat;
+  font-family: "Myriad Pro Regular", sans-serif;
+  text-transform: uppercase;
+  text-align: justify; }
+
+.white-line {
+  height: 60px; }
+
+.wrapper {
+  width: 1130px;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=main.css.map */

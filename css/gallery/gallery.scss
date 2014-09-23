@@ -1,0 +1,29 @@
+@import "../mixin";
+
+.gallery {
+    background: #d2d2d2;
+
+    img {
+        width: 100%;
+    }
+
+    h2 {
+        color: #ffffff;
+        font-size: 140px;
+    }
+
+    h3 {
+        color: #494949;
+        font-size: 40px;
+        padding: 0 0 20px 10px;
+    }
+
+    p {
+        color: #c5e2ed;
+        font-size: 14px;
+        width: 605px;
+        padding: 0 0 20px 10px;
+    }
+}
+
+

@@ -1,0 +1,19 @@
+@import "reset.css";
+@import "header/header";
+@import "gallery/gallery";
+@import "content/content";
+@import "footer/footer";
+
+body{
+    background: #fff url("../img/bg.png") repeat;
+    font-family: "Myriad Pro Regular", sans-serif;
+    text-transform: uppercase;
+    text-align: justify;
+}
+.white-line{
+    height: 60px;
+}
+.wrapper {
+    width: 1130px;
+    margin: 0 auto;
+}

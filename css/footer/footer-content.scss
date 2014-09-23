@@ -1,0 +1,80 @@
+@import "../mixin";
+.sidebar {
+    @include footer-background;
+    padding: 85px 0;
+
+    .testimonials {
+        width: 362px;
+
+        li {
+            margin-bottom: 35px;
+        }
+
+        h3 {
+            color: #c5e2ed;
+            font-size: 30px;
+            margin-bottom: 42px;
+        }
+        img {
+            float: left;
+        }
+        .comment {
+            background: #ffffff;
+            border: 1px solid #9f9f9f;
+            text-transform: none;
+            color: #9f9f9f;
+            font-size: 14px;
+
+            margin-left: 80px;
+            padding: 19px;
+
+            position: relative;
+
+            &::after {
+                content: '';
+                position: absolute;
+                left: -10px;
+                top: 19px;
+                border: 6px solid transparent;
+                border-right-color: #ffffff;
+            }
+        }
+
+        .contacts {
+            color: #38393a;
+            text-align: right;
+            margin-top: 19px;
+
+            .user-name {
+                color: #e5a502;
+            }
+
+            .organisation {
+                color: #494949;
+            }
+        }
+
+        .navigation {
+            margin-top: -74px;
+            position: relative;
+
+            button {
+                background: #545454;
+                width: 50px;
+                height: 50px;
+
+                color: #ffffff;
+                font-size: 30px;
+
+                &:hover {
+                    background: #f6ba00;
+                }
+            }
+
+
+        }
+    }
+}
+
+
+

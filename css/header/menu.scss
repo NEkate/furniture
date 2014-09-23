@@ -1,0 +1,37 @@
+@import "../mixin";
+
+.menu-line{
+    height: 130px;
+}
+.menu{
+    list-style: none;
+    float: right;
+    line-height: 50%;
+    padding-top: 47.5px;
+
+    li{
+        float: left;
+        text-align: center;
+        line-height: 50px;
+        height: 36px;
+    }
+
+    a{
+        color: #3d3d3d;
+        display: block;
+
+        margin: 0 auto;
+        padding: 0 20px;
+
+        font-size: 15px;
+        font-weight: bold;
+        text-decoration: none;
+        line-height: 2.5;
+
+        &:hover{
+            background: #f4af00;
+            color: #ffffff;
+        }
+
+    }
+}

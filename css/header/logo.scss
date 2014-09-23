@@ -1,0 +1,31 @@
+.logo {
+    padding: 29px 0;
+    float: left;
+    width: 300px;
+}
+
+.logo-image {
+    position: relative;
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    height: 72px;
+    width: 72px;
+    float: left;
+    margin-right: 20px;
+    img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -40% 0 0 -18%;
+
+    }
+}
+
+.logo-type {
+    display: inline;
+    font-size: 40px;
+    color: #3d3d3d;;
+    span {
+        color: #f4af00;
+    }
+}

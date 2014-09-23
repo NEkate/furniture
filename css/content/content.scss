@@ -1,0 +1,59 @@
+@import "../mixin";
+@import "read-more";
+
+.content {
+    background: #cecece; /* Old browsers */
+    background: -moz-linear-gradient(top, #cecece -1%, #ffffff 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(-1%, #cecece), color-stop(100%, #ffffff)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #cecece -1%, #ffffff 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #cecece -1%, #ffffff 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #cecece -1%, #ffffff 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #cecece -1%, #ffffff 100%); /* W3C */
+    /*clear: both;*/
+    overflow: auto;
+    padding: 75px 0;
+
+    ul {
+
+        li {
+            width: 360px;
+            float: left;
+            margin-right: 25px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+
+    h2 {
+        color: #494949;
+        font-size: 29px;
+        padding: 10px 0;
+    }
+
+    h3 {
+        color: #7f9db0;
+        font-size: 15px;
+    }
+}
+
+.content-point {
+    width: 75px;
+    height: 75px;
+    background: #5a5a5a;
+    text-align: center;
+    line-height: 75px;
+    color: #ffffff;
+    font-size: 40px;
+    float: left;
+    margin-right: 20px;
+}
+
+.content-text {
+    color: #4c5c66;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 20px;
+    clear: both;
+}
