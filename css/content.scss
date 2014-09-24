@@ -12,65 +12,75 @@
     overflow: auto;
     padding: 75px 0;
 
-    ul {
 
-        li {
-            width: 360px;
+    ul {
+        > * {
             float: left;
-            margin-right: 25px;
+            margin-right: 20px;
 
             &:last-child {
                 margin-right: 0;
             }
         }
+        li {
+            width: 362px;
+
+            .title {
+                height: 75px;
+
+                .post-number {
+                    float: left;
+                    background: #494949;
+                    width: 75px;
+
+                    color: #ffffff;
+                    font-size: 40px;
+                    text-align: center;
+                    line-height: 75px;
+                }
+
+                .post-title {
+                    margin-left: 95px;
+
+                    h2 {
+                        color: #494949;
+                        font-size: 30px;
+                        padding: 11px 0 7px 0;
+                    }
+
+                    h3 {
+                        color: #999;
+                    }
+                }
+            }
+
+            .post {
+                color: #4c5c66;
+                text-transform: none;
+                line-height: 30px;
+
+                margin: 35px 0;
+            }
+
+            .read-more {
+                @include background-read-more;
+
+                height: 42px;
+                width: 103px;
+
+                color: #ffffff;
+                font-size: 12px;
+                text-transform: uppercase;
+
+                &:hover {
+                    -webkit-box-shadow: 1px 2px 1px 0 #a5a5aa;
+                    box-shadow: 1px 2px 1px 0 #a5a5aa;
+                }
+            }
+        }
     }
 
-    h2 {
-        color: #494949;
-        font-size: 29px;
-        padding: 10px 0;
-    }
-
-    h3 {
-        color: #7f9db0;
-        font-size: 15px;
-    }
 }
 
-.content-point {
-    width: 75px;
-    height: 75px;
-    background: #5a5a5a;
-    text-align: center;
-    line-height: 75px;
-    color: #ffffff;
-    font-size: 40px;
-    float: left;
-    margin-right: 20px;
-}
 
-.content-text {
-    color: #4c5c66;
-    font-size: 14px;
-    line-height: 1.5;
-    margin-top: 20px;
-    clear: both;
-}
 
-.read-more {
-    width: 105px;
-    height: 42px;
-    background: #f4af00;
-    text-align: center;
-    line-height: 42px;
-    margin-top: 20px;
-
-    -webkit-box-shadow: 1px 2px 1px 0 #a5a5aa;
-    box-shadow: 1px 2px 1px 0 #a5a5aa;
-
-    a {
-        color: #ffffff;
-        text-decoration: none;
-        font-size: 14px;
-    }
-}
