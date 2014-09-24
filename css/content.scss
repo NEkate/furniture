@@ -1,5 +1,4 @@
-@import "../mixin";
-@import "read-more";
+@import "mixin";
 
 .content {
     background: #cecece; /* Old browsers */
@@ -56,4 +55,22 @@
     line-height: 1.5;
     margin-top: 20px;
     clear: both;
+}
+
+.read-more {
+    width: 105px;
+    height: 42px;
+    background: #f4af00;
+    text-align: center;
+    line-height: 42px;
+    margin-top: 20px;
+
+    -webkit-box-shadow: 1px 2px 1px 0 #a5a5aa;
+    box-shadow: 1px 2px 1px 0 #a5a5aa;
+
+    a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 14px;
+    }
 }

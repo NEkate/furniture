@@ -1,14 +1,15 @@
 @import "reset.css";
-@import "header/header";
-@import "gallery/gallery";
-@import "content/content";
-@import "footer/footer";
+@import "header";
+@import "gallery";
+@import "content";
+@import "footer";
 
 body{
     background: #fff url("../img/bg.png") repeat;
     font-family: "Myriad Pro Regular", sans-serif;
     text-transform: uppercase;
     text-align: justify;
+    font-size: 14px;
 }
 .white-line{
     height: 60px;
