@@ -125,10 +125,11 @@
       .content ul li .title .post-title {
         margin-left: 95px; }
         .content ul li .title .post-title h2 {
-          color: #494949;
-          font-size: 30px;
           padding: 11px 0 7px 0; }
-        .content ul li .title .post-title h3 {
+          .content ul li .title .post-title h2 a {
+            color: #494949;
+            font-size: 30px; }
+        .content ul li .title .post-title h3 a {
           color: #999; }
     .content ul li .post {
       color: #4c5c66;

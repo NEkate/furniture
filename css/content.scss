@@ -43,12 +43,15 @@
                     margin-left: 95px;
 
                     h2 {
-                        color: #494949;
-                        font-size: 30px;
                         padding: 11px 0 7px 0;
+                        a {
+                            color: #494949;
+                            font-size: 30px;
+
+                        }
                     }
 
-                    h3 {
+                    h3 a {
                         color: #999;
                     }
                 }
